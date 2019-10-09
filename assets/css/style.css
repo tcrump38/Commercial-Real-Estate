@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    background-image: url("../images/oriental.png");
+} */
+
+/* Navbar */
+.navbar {
+    padding: 0;
+    /* border-bottom: .1rem solid rgba(0,0,0,.125); */
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 19%;
+}
+
+.navbar-brand {
+    color: white;
+    /* background: url("../images/texas-state-flag.jpg");
+    background-position: center;
+    background-size: cover; */
+
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 1.5rem;
+    /* margin-left: 12%; */
+}
+
+/* tx flag */
+.img-fluid {
+    height: 10%;
+    width: 10%;
+}
+
+.navbar-light .nav-item .nav-link {
+    color: #797e7f;
+}
+
+.nav-item {
+    margin-left: 5%;
+}
+
+/* Parallax */
+#plx {
+    background: url("../images/310426.jpg");
+    height: 65%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wtitle {
+    color: white;
+    padding-top: 28%
+}
+
+#pitch {
+    /* margin-top: 20%; */
+}
